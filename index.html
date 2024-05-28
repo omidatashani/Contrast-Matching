@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contrast Matching Task</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <h1>Contrast Matching Task</h1>
+        <p>Match the contrast of the right circle to the left one.</p>
+        <p><b>Keyboard:</b> Left/Right arrows. </p>
+        <P> <b>Touch:</b> Tap left/right half of circle.  <p>
+        <div id="circles">
+            <div class="circle" id="reference"></div>
+            <div class="circle" id="target"></div>
+        </div>
+        <button onclick="nextCircles()">Next</button>
+        <button onclick="endTask()">End</button>
+        <div id="results"></div>
+        <p>Made by Omid</p>
+    </div>
+    <script src="script.js" defer></script>
+</body>
+</html>
